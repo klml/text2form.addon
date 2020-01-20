@@ -7,7 +7,7 @@
   "applications": {
     "gecko": {
       "id": "addon_text2form@klml.de",
-      "strict_min_version": "54.0a1"
+      "strict_min_version": "60.0"
     }
   },
   "icons": {
