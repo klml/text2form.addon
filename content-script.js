@@ -15,7 +15,7 @@ browser.runtime.onMessage.addListener(request => {
 "#EFD9B3",
 "#77B9EF" ]
 
-    document.querySelectorAll('input:not(:disabled):not([readonly]):not([type=hidden]):not([type=submit])').forEach(function( element, index ) {
+    document.querySelectorAll('input:not(:disabled):not([readonly]):not([type=hidden]):not([type=submit]), textarea').forEach(function( element, index ) {
 
         if (t2f_list[index] == undefined ) {
             element.value = "" ; }
