@@ -3,7 +3,7 @@ browser.runtime.onMessage.addListener(request => {
 
     var t2f_text_value = request.t2f_text_value ;
     var t2f_list = t2f_text_value.split("\n");
-    var t2f_selectors = 'input:not(:disabled):not([readonly]):not([type=hidden]):not([type=submit]), textarea';
+    var t2f_selectors = 'input:not(:disabled):not([readonly]):not([type=hidden]):not([type=submit]):not([type=image]):not([type=button]):not([type=file]):not([type=checkbox]):not([type=radio]):not([type=range]):not([type=reset]), textarea';
     var rainbow = [
 "#C8EF68",
 "#D5EF95",
