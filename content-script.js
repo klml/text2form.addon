@@ -23,8 +23,8 @@ browser.runtime.onMessage.addListener(request => {
         else {
             element.value = t2f_list[index] ; // spread text values
         }
-        // TODO index > 10
-        element.style.background = rainbow[index] ;
+        var digit = index.toString().split('').pop();
+        element.style.background = rainbow[digit] ;
     });
   return Promise.resolve({response: "text spread"});
 });
