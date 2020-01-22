@@ -3,6 +3,7 @@ browser.runtime.onMessage.addListener(request => {
 
     var t2f_text_value = request.t2f_text_value ;
     var t2f_list = t2f_text_value.split("\n");
+    var t2f_selectors = 'input:not(:disabled):not([readonly]):not([type=hidden]):not([type=submit]), textarea';
     var rainbow = [
 "#C8EF68",
 "#D5EF95",
@@ -15,7 +16,7 @@ browser.runtime.onMessage.addListener(request => {
 "#EFD9B3",
 "#77B9EF" ]
 
-    document.querySelectorAll('input:not(:disabled):not([readonly]):not([type=hidden]):not([type=submit]), textarea').forEach(function( element, index ) {
+    document.querySelectorAll(t2f_selectors).forEach(function( element, index ) {
 
         if (t2f_list[index] == undefined ) {
             element.value = "" ; }
