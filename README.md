@@ -9,4 +9,4 @@ Install this as [Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/t
 [Testpage](https://klml.github.io/text2form.jquery/test.html) with all kind of input types.
 
 
-The same for websites [htext2form.jquery](https://github.com/klml/text2form.jquery)
+The same for websites [text2form.jquery](https://github.com/klml/text2form.jquery)
