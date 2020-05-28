@@ -5,4 +5,8 @@ Install this as [Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/t
 
 ![fill in your adress (copy from your emailsignatur) in an example checkout](https://img.klml.de/devel/t2f_checkout.gif)
 
+
+[Testpage](https://klml.github.io/text2form.jquery/test.html) with all kind of input types.
+
+
 The same for websites [htext2form.jquery](https://github.com/klml/text2form.jquery)
